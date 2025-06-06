@@ -1,16 +1,15 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f0f2f5;
-  margin: 0;
-  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  margin: 0;
 }
 
 .perfil-container {
-  background-color: #ffffff;
+  background-color: #fff;
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -37,4 +36,43 @@ p {
   color: #555;
   font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.portfolio-link {
+  display: inline-block;
+  margin: 10px 0;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.portfolio-link:hover {
+  text-decoration: underline;
+}
+
+.redes-sociales a {
+  color: #333;
+  font-size: 20px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.redes-sociales a:hover {
+  color: #007bff;
+}
+
+.btn-volver {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+  background-color: #0056b3;
 }
